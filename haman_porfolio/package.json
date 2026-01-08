@@ -1,0 +1,11 @@
+{
+  "name": "haman-portfolio-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd portfolio/frontend && npm ci && npm run build",
+    "install": "cd portfolio/frontend && npm ci"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  }
+}
