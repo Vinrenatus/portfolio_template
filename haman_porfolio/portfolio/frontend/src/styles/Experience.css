@@ -1,0 +1,136 @@
+/* Experience Timeline */
+.experience {
+  padding: 5rem 0;
+  background-color: var(--bg-color);
+}
+
+.experience .container {
+  max-width: 1000px;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: var(--primary-color);
+  left: 50%;
+  margin-left: -2px;
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  width: calc(50% - 40px);
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: calc(50% + 40px);
+}
+
+.timeline-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  top: 15px;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-marker {
+  right: -50px;
+}
+
+.timeline-item:nth-child(even) .timeline-marker {
+  left: -50px;
+}
+
+.timeline-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-period {
+  background-color: #dbeafe;
+  color: var(--primary-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.timeline-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.timeline-content p {
+  color: var(--light-text);
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .experience h2 {
+    font-size: 2rem;
+  }
+  
+  .timeline::before {
+    left: 31px;
+  }
+  
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    left: 0 !important;
+  }
+  
+  .timeline-item:nth-child(even) {
+    left: 0 !important;
+  }
+  
+  .timeline-marker {
+    left: 21px !important;
+    right: auto !important;
+  }
+  
+  .timeline-content {
+    padding: 1.5rem;
+  }
+}

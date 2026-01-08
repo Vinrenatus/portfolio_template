@@ -1,0 +1,227 @@
+{
+  "name": "Hamman Muraya",
+  "title": "Senior Software Engineer & DevOps Specialist",
+  "summary": "Highly skilled and dedicated Senior Software Engineer with over 8 years of experience designing, building, and deploying secure, scalable cloud-native systems for fintech and SaaS organisations.",
+  "about": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+  "skills": [
+    {
+      "name": "Python",
+      "level": 90
+    },
+    {
+      "name": "React/TypeScript",
+      "level": 85
+    },
+    {
+      "name": "Node.js/Express",
+      "level": 80
+    },
+    {
+      "name": "Go",
+      "level": 70
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 90
+    },
+    {
+      "name": "Redis",
+      "level": 85
+    },
+    {
+      "name": "MongoDB",
+      "level": 80
+    },
+    {
+      "name": "AWS",
+      "level": 95
+    },
+    {
+      "name": "GCP",
+      "level": 90
+    },
+    {
+      "name": "Terraform",
+      "level": 85
+    },
+    {
+      "name": "Kubernetes",
+      "level": 90
+    },
+    {
+      "name": "Docker",
+      "level": 85
+    },
+    {
+      "name": "GraphQL",
+      "level": 80
+    },
+    {
+      "name": "Microservices Architecture",
+      "level": 90
+    },
+    {
+      "name": "vum",
+      "level": 50
+    },
+    {
+      "name": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "level": 90
+    },
+    {
+      "name": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "level": 60
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Nairobi, Nairobi, Kenya",
+      "degree": "BSc in Applied Computer Science",
+      "year": "2010-2014",
+      "description": "Classification: Second Class Honours (Upper Division), GPA: 3.7/4.0"
+    },
+    {
+      "institution": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "degree": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "year": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "description": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "Standard Chartered Bank",
+      "period": "12/2022 \u2013 06/2023",
+      "description": "Optimised existing Elixir and Python services by implementing Redis caching strategies and improving database query performance. Improved system responsiveness by 35%."
+    },
+    {
+      "title": "Senior Backend Engineer",
+      "company": "Power Financial Wellness",
+      "period": "07/2021 \u2013 11/2022",
+      "description": "Designed and implemented a distributed fintech platform on Google Cloud Platform serving 15,000+ users across East Africa."
+    },
+    {
+      "title": "hu",
+      "company": "hu",
+      "period": "gu",
+      "description": "gu"
+    },
+    {
+      "title": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "company": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "period": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "description": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation",
+      "date": "March 2023",
+      "credential_id": "CKA-2023-HM002",
+      "expires": "March 2026"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "July 2024",
+      "credential_id": "AWS-CCP-2024-HM003",
+      "expires": "July 2027"
+    },
+    {
+      "name": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "issuer": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "date": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "credential_id": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "expires": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 2,
+      "name": "Dr. Sarah Mitchell",
+      "title": "Professor of Software Engineering",
+      "company": "California State University",
+      "content": "Hamman demonstrated exceptional research abilities and technical expertise during his PhD. His work on scalable microservices architecture has contributed significantly to our research program.",
+      "avatar": "/images/sarah-mitchell.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "title": "VP Engineering",
+      "company": "Data Annotation",
+      "content": "Hamman led the implementation of a cloud-native microservices architecture that improved system performance by 300% and reduced operational costs by 25%.",
+      "avatar": "/images/michael-chen.jpg"
+    },
+    {
+      "name": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "title": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "company": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "content": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "avatar": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "id": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": 2,
+      "title": "Scalable Microservices Architecture for Financial Technology Platforms",
+      "description": "Research paper exploring scalable microservices architecture patterns specifically designed for financial technology platforms, addressing challenges of security, compliance, and performance.",
+      "date": "March 15, 2021",
+      "url": "https://journal.example.com/...",
+      "tags": [
+        "Microservices",
+        "Fintech",
+        "Architecture"
+      ]
+    },
+    {
+      "title": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "description": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "date": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "url": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "tags": [
+        "9-2022)",
+        "which enables me to blend academic rigor with practical",
+        "production-focused delivery."
+      ],
+      "id": 2
+    }
+  ],
+  "contact": {
+    "email": "muraya.h@yahoo.com",
+    "phone": "+44-747-123-4567",
+    "linkedin": "https://linkedin.com/in/hamman-muraya-8b3744397",
+    "github": "https://github.com/MurayaSoftTouch",
+    "location": "Lincoln, Lincolnshire, England",
+    "website": "https://github.com/MurayaSoftTouch"
+  },
+  "projects": [
+    {
+      "title": "hu",
+      "description": "hu",
+      "technologies": [
+        "hu"
+      ],
+      "link": "hu",
+      "image": "hu",
+      "category": "hu",
+      "year": "hu",
+      "id": 1
+    },
+    {
+      "title": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "description": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "technologies": [
+        "9-2022)",
+        "which enables me to blend academic rigor with practical",
+        "production-focused delivery."
+      ],
+      "link": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "image": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "category": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "year": "9-2022), which enables me to blend academic rigor with practical, production-focused delivery.",
+      "id": 2
+    }
+  ]
+}

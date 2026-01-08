@@ -1,0 +1,431 @@
+                                          HAMMAN MURAYA
+
+                             Senior Software Engineer & DevOps Specialist
+
+     PHONE: +44-747-123-4567 | EMAIL: muraya.h@yahoo.com | GITHUB: MurayaSoftTouch
+ LINKEDIN: linkedin.com/in/hamman-muraya-8b3744397 | LOCATION: Lincoln, Lincolnshire, England
+       WEBSITE: https://github.com/MurayaSoftTouch | AVAILABILITY: Open to Remote
+
+
+
+
+PERSONAL STATEMENT
+I am a highly skilled and dedicated Senior Software Engineer with over 8 years of experience designing,
+building, and deploying secure, scalable cloud-native systems for fintech and SaaS organisations. I am
+committed to delivering production-grade solutions that meet the highest standards of quality, security, and
+performance. Since beginning my professional career in software engineering in 2017, I have continuously
+strived to improve my technical expertise through advanced education, professional certifications, and hands-
+on experience across diverse technology stacks and cloud platforms.
+
+I am highly effective at leading and managing development teams, as well as working independently to
+prioritise and achieve project targets and business requirements. Throughout my career, I have successfully
+architected and delivered SOC 2-compliant microservices, optimised database performance for high-
+throughput systems, and implemented robust CI/CD pipelines using GitOps methodologies. I hold a PhD in
+Software Engineering from California State University (2019-2022), which enables me to blend academic
+rigor with practical, production-focused delivery. My technical expertise spans across multiple programming
+languages including Elixir/Phoenix, Python, and React/TypeScript, with extensive experience in
+infrastructure as code using Terraform and Kubernetes on Google Cloud Platform and AWS. I have a proven
+track record of reducing deployment times by up to 40%, improving system responsiveness by 35%, and
+leading microservices migrations that increased uptime by 40%. I am passionate about creating innovative
+solutions that solve real-world problems, as demonstrated through my various technical projects including
+emergency response platforms and e-commerce systems that have generated significant revenue impact.
+EMPLOYMENT HISTORY
+07/2023 – 07/2025 (2 years)
+
+Senior Software Engineer
+
+Data Annotation (Remote, USA)
+
+During my tenure in this role, I architected and maintained highly scalable Elixir microservices running on
+Google Kubernetes Engine (GKE) using Terraform for infrastructure provisioning. I was responsible for
+building SOC 2-compliant systems capable of handling 5,000+ requests per minute with sub-200ms latency,
+ensuring optimal performance and reliability for data annotation platforms serving global clients. I led the
+design and implementation of cloud-native solutions using infrastructure as code principles, establishing best
+practices for container orchestration, monitoring, and continuous deployment. I worked closely with cross-
+functional teams to ensure that our systems met stringent security and compliance requirements while
+maintaining high availability and performance standards. I mentored four junior developers and established
+coding standards that improved overall code quality and maintainability across the engineering organisation.
+
+My key achievements in this role included reducing deployment time by 40% through Terraform
+infrastructure automation, building SOC 2-compliant systems handling 5,000+ RPM with sub-200ms latency,
+leading cloud-native architecture design on Google Kubernetes Engine, mentoring junior developers and
+establishing team coding standards, and implementing GitOps CI/CD pipelines that reduced manual
+intervention by 80%. The technologies I utilized included Elixir, Phoenix, Terraform, Kubernetes, GKE,
+Google Cloud, PostgreSQL, Redis, GitHub Actions, Prometheus, Grafana, Docker, and Helm, working
+within an Agile/Scrum environment using GitOps, TDD, and BDD methodologies.
+
+
+
+12/2022 – 06/2023 (6 months)
+
+Senior Backend Engineer
+
+Standard Chartered Bank (United Kingdom)
+
+In this role, I worked within a regulated banking environment where I optimised existing Elixir and Python
+services by implementing Redis caching strategies and improving database query performance. My work
+resulted in a 35% improvement in system responsiveness, directly impacting customer experience and
+operational efficiency. I enhanced system observability by implementing Prometheus monitoring within
+Kubernetes environments on GKE, providing real-time insights into application performance and enabling
+proactive issue resolution. I collaborated with DevOps teams to streamline deployment processes and ensure
+that our services met banking-grade security and regulatory requirements, including PCI DSS and SOC 2
+compliance. I participated in code reviews and architectural decision-making processes to maintain high
+coding standards and system reliability.
+My key achievements included improving system responsiveness by 35% through Redis caching
+optimization, implementing Prometheus monitoring in Kubernetes environments on GKE, ensuring banking-
+grade security and regulatory compliance, and collaborating with DevOps teams on deployment automation
+that reduced deployment time by 25%. I utilized technologies such as Elixir, Python, Redis, PostgreSQL,
+Prometheus, Kubernetes, GKE, Grafana, Splunk, and Concourse CI within an Agile/Scrum environment
+following ITIL and DevOps practices.
+
+
+
+07/2021 – 11/2022 (1 year 4 months)
+
+Senior Backend Engineer
+
+Power Financial Wellness (Nairobi, Kenya)
+
+I designed and implemented a distributed fintech platform on Google Cloud Platform using Terraform for
+infrastructure management and Kubernetes for container orchestration. This platform supported financial
+wellness services for thousands of users across East Africa, requiring robust security, scalability, and
+reliability. My responsibilities included architecting microservices, designing database schemas for high-
+performance applications, and implementing API gateways for secure service-to-service communication. I
+worked closely with product managers and frontend developers to deliver features that met user needs while
+maintaining technical excellence. I also established monitoring and alerting systems that enabled our team to
+maintain high service availability.
+
+My key achievements in this position included architecting a distributed fintech platform serving 15,000+
+users across East Africa, implementing infrastructure as code with Terraform that reduced provisioning time
+by 60%, designing secure API gateways handling 1M+ monthly requests, and establishing comprehensive
+monitoring and alerting systems that maintained 99.9% uptime. The technologies I worked with included
+Terraform, Kubernetes, GCP, API Gateway, PostgreSQL, Redis, Google Cloud Build, and Stackdriver.
+
+
+
+04/2020 – 06/2021 (1 year 2 months)
+
+Senior Backend Engineer
+
+Alsoug.com (Khartoum, Sudan)
+
+I led the migration from monolithic architecture to microservices on Kubernetes, a critical initiative that
+improved system uptime by 40% and enabled faster feature delivery. This migration involved careful
+planning, phased rollouts, and comprehensive testing to ensure zero downtime during the transition. I worked
+as part of a collaborative engineering team to decompose existing services, implement inter-service
+communication patterns, and establish CI/CD pipelines that automated deployment processes. I also
+implemented comprehensive monitoring and logging solutions that provided visibility into system health and
+performance, enabling rapid issue identification and resolution.
+
+My key achievements included leading the monolith-to-microservices migration which improved uptime by
+40%, implementing zero-downtime deployment strategies across 12 services, establishing CI/CD pipelines
+for automated deployments that reduced release time by 50%, and designing inter-service communication
+patterns using REST and message queues. I utilized technologies such as Kubernetes, Microservices, Docker,
+PostgreSQL, Redis, RabbitMQ, GitLab CI, Helm, Prometheus, and Grafana.
+
+
+
+04/2017 – 03/2020 (3 years)
+
+Software Engineer
+
+Gladys Technologies (Nairobi, Kenya)
+
+I built secure GraphQL and REST APIs using Elixir and Phoenix framework, establishing the foundation for
+scalable backend services that supported multiple client applications. I implemented authentication and
+authorisation systems that protected sensitive user data while enabling seamless user experiences. I
+established GitOps CI/CD pipelines using GitHub Actions and Flux, automating the deployment process and
+reducing manual intervention by 80%. This initiative significantly reduced deployment errors and enabled
+faster delivery of new features to production. I also collaborated with frontend developers to design API
+contracts and ensure smooth integration between frontend and backend systems.
+
+My key achievements in this role included building secure GraphQL and REST APIs serving 10,000+ daily
+active users, establishing GitOps CI/CD that reduced manual intervention by 80%, implementing
+authentication and authorization systems with JWT and OAuth2, and collaborating on API design and
+frontend integration with React applications. The technologies I used included Elixir, Phoenix, GraphQL,
+PostgreSQL, Redis, GitHub Actions, Flux, and Docker.
+
+
+
+EDUCATION
+
+
+
+2019 – 2022 (3 years)
+
+PhD in Software Engineering
+
+California State University, California, USA
+
+Thesis: "Scalable Microservices Architecture for Financial Technology Platforms"
+
+Supervisor: Dr. Sarah Mitchell
+
+My doctoral research focused on advanced software engineering methodologies and cloud computing
+architectures. I conducted extensive research into distributed systems design, microservices patterns, and
+DevOps practices, contributing to the academic community through publications and conference
+presentations. This advanced degree provided me with deep theoretical knowledge that I apply to practical
+software development challenges. My key academic achievements included conducting research in
+distributed systems design and microservices patterns, contributing to three academic publications and two
+conference presentations, specializing in DevOps practices and cloud architecture, and receiving a PhD
+Research Scholarship of $45,000 annually. I completed advanced coursework in Cloud Computing,
+Distributed Systems, Research Methodology, Advanced Distributed Systems, and Microservices Design
+Patterns, and was actively involved in research publications, conference presentations, and academic
+mentoring.
+
+
+
+2015 – 2017 (2 years)
+
+MSc in Software Engineering
+
+Lincoln University, Lincoln, UK
+
+Classification:Merit
+
+
+During my master's programme, I specialised in software architecture and design patterns, with particular
+emphasis on enterprise application development. I completed coursework in advanced database systems,
+distributed computing, and software project management, achieving high academic standards while working
+on complex technical projects. My key academic achievements included completing advanced coursework in
+database systems and distributed computing, achieving high academic achievement in software project
+management, completing complex technical projects with distinction, and writing my dissertation on "Design
+Patterns in Microservices Architecture". I completed coursework in Software Architecture, Design Patterns,
+Database Systems, Distributed Computing, and Project Management, and was an active member of the
+Student Technology Society and participated in coding competitions.
+
+
+
+2010 – 2014 (4 years)
+
+BSc in Applied Computer Science
+
+University of Nairobi, Nairobi, Kenya
+
+Classification: Second Class Honours (Upper Division)
+
+GPA:3.7/4.0
+
+My undergraduate studies provided a strong foundation in computer science fundamentals, including
+algorithms, data structures, software engineering principles, and database management. I graduated with
+honours and was actively involved in student technology organisations and coding competitions. My key
+academic achievements included graduating with honours and strong academic performance (GPA: 3.7/4.0),
+serving as Vice President of the Computer Society, achieving third place in the National Hackathon 2013,
+and completing my final year project on "Mobile Banking Application with Security Features". I completed
+coursework in Algorithms, Data Structures, Software Engineering, Database Management, and Computer
+Networks, and was actively involved in the Computer Society as Vice President, participated in coding
+competitions and hackathons, and built a strong foundation for my future career in software engineering.
+PROJECTS
+
+Ajali – Real-Time Incident Reporting Platform | React, Node.js, Flask, PostgreSQL, AWS
+
+Duration: 6 months (Jan 2022 – Jun 2022) | Team Size: 1
+
+I designed and developed a full-stack emergency response platform using React, Node.js, Flask, and
+PostgreSQL, featuring real-time geolocation tagging and AWS cloud deployment. This platform enables
+rapid incident reporting and emergency response coordination, demonstrating technical innovation with real-
+world social impact. The system handles real-time data processing, mapping integration, and multi-user
+collaboration features, making it a valuable tool for emergency responders and community safety initiatives.
+
+Sustainable Maasai Legacy E-commerce Platform | React, Node.js, Stripe
+
+Duration: 8 months (Mar 2021 – Oct 2021) | Team Size: 2
+
+I led end-to-end development of a cultural e-commerce platform using React, Node.js, and Stripe payment
+integration, enabling Maasai artisans to sell their crafts to global markets. This project generated $15,000 in
+revenue within the first six months, demonstrating both technical capability and positive economic impact for
+local communities. I implemented secure payment processing, inventory management, and international
+shipping logistics, creating a comprehensive e-commerce solution that empowered local artisans.
+
+CoinBase iOS Cryptocurrency Tracker | SwiftUI
+
+Duration: 4 months (Sep 2020 – Dec 2020) | Team Size: 1
+
+I developed a native iOS application using SwiftUI for real-time cryptocurrency market data visualisation
+and portfolio tracking. The app features live price updates, portfolio analytics, price alerts, and secure user
+authentication, demonstrating my ability to work across different technology stacks and deliver polished
+mobile applications. The app achieved 1,000+ downloads on the App Store with a 4.5/5.0 star rating from
+over 200 reviews.
+
+Science Trivia STEM Learning Application | Flask, PostgreSQL, JavaScript
+
+Duration: 5 months (May 2020 – Sep 2020) | Team Size: 1
+
+I built a gamified STEM learning tool with Flask, PostgreSQL, and JavaScript, featuring dynamic quizzes,
+leaderboards, progress tracking, and adaptive learning algorithms. This educational platform makes science
+learning engaging and interactive, with over 1,000 questions across multiple STEM subjects. The platform
+achieved 500+ registered students within three months with an 85% user retention rate.
+Duka Platform RESTful API | Flask, SQLAlchemy, PostgreSQL
+
+Duration: 6 months (Nov 2019 – Apr 2020) | Team Size: 2
+
+I co-developed a secure RESTful e-commerce backend using Flask, SQLAlchemy, and PostgreSQL,
+deployed on Render cloud platform with comprehensive API documentation. The platform includes user
+authentication, product catalog management, shopping cart functionality, and order processing capabilities,
+providing a complete e-commerce solution. The platform achieved 99.9% uptime during operation and
+integrated with three payment providers.
+
+3-Tier AWS Infrastructure (Terraform) | Terraform, AWS EC2, RDS, S3
+
+Duration: 3 months (Jul 2019 – Oct 2019) | Team Size: 1
+
+I provisioned a secure, scalable three-tier architecture on AWS using Terraform infrastructure as code,
+implementing EC2 for application servers, RDS for database management, and S3 for static asset storage.
+The infrastructure enforces least-privilege IAM policies and network segmentation for enhanced security.
+The architecture achieved 99.99% uptime over a 12-month period and reduced infrastructure costs by 60%
+through optimization.
+
+Cloud-Native Monitoring App | Flask, Docker, AWS EKS, CloudWatch
+
+Duration: 4 months (Apr 2019 – Jul 2019) | Team Size: 1
+
+I engineered a real-time system monitoring application using Flask and Docker, deployed on AWS Elastic
+Kubernetes Service (EKS) with centralized CloudWatch logging. This monitoring solution provides
+comprehensive visibility into application performance, resource utilisation, and system health across
+distributed environments. The system achieved a 40% reduction in mean time to resolution (MTTR) and
+provided 99.5% monitoring coverage across all services.
+
+Static Website Hosting on S3 | AWS S3, CloudFront, Route 53
+
+Duration: 2 months (Feb 2019 – Mar 2019) | Team Size: 1
+
+I configured a globally available static website using AWS S3 for storage, CloudFront for content delivery,
+and Route 53 for DNS management, with HTTPS encryption, caching strategies, and DDoS protection for
+optimal performance and security. The configuration achieved a 95% cache hit rate, reduced page load time
+by 70%, and maintained 99.9% availability over a 12-month period.
+
+TECHNICAL SKILLS
+My technical expertise spans across multiple domains of software engineering and cloud computing. In
+Cloud & DevOps, I have expert-level proficiency with 6 years of experience working with Google Cloud
+Platform (GKE, Cloud SQL, Compute Engine, VPC, IAM, Cloud Build, Cloud Storage) and Amazon Web
+Services (EC2, S3, RDS, IAM, EKS, CloudWatch, Lambda, Route 53, CloudFront), with basic knowledge of
+Microsoft Azure. I am proficient in infrastructure as code tools including Terraform, Kubernetes, Docker,
+GitHub Actions, Prometheus, Grafana, Jenkins, Helm, and Vault. In Backend Development, I have expert-
+level proficiency with 8 years of experience working with Elixir/Phoenix, Python/Django/Flask,
+Node.js/Express, with basic knowledge of Go. I am skilled in RESTful API Design, GraphQL, gRPC,
+WebSockets, and Microservices Architecture, and have worked extensively with databases including
+PostgreSQL, Redis, MongoDB, MySQL, DynamoDB, and Elasticsearch, as well as message brokers such as
+RabbitMQ, Apache Kafka, Redis Pub/Sub, and AWS SQS. In Frontend Development, I have proficient-level
+skills with 5 years of experience working with React/TypeScript, Redux, Next.js, with basic knowledge of
+Vue.js and Angular. I have also developed mobile applications using SwiftUI for iOS development, with
+basic knowledge of Android development. I am proficient in HTML5, CSS3, JavaScript ES6+, Tailwind
+CSS, Bootstrap, and build tools including Webpack, Vite, and Rollup. In Security & Practices, I have expert-
+level proficiency with 6 years of experience in Identity and Access Management (IAM), SOC 2 Compliance,
+ISO 27001, Test-Driven Development (TDD), Behaviour-Driven Development (BDD), GitOps,
+Agile/Scrum, Kanban, System Design, Domain-Driven Design, OWASP Security Guidelines, Penetration
+Testing, and Vulnerability Assessment.
+
+CERTIFICATIONS
+I maintain several professional certifications that demonstrate my expertise in cloud computing and software
+engineering. I am an AWS Certified Solutions Architect – Associate (Credential ID: AWS-SAA-2022-
+HM001, issued 15 January 2022, expires 15 January 2025), a Certified Kubernetes Administrator (CKA)
+through the Cloud Native Computing Foundation (Credential ID: CKA-2023-HM002, issued 10 March 2023,
+expires 10 March 2026), an AWS Certified Cloud Practitioner (Credential ID: AWS-CCP-2024-HM003,
+issued 15 July 2024, expires 15 July 2027), and hold a Software Engineering Certification from ALX Africa
+and Moringa School (Credential ID: ALX-SE-2017-HM004, issued 15 August 2017, no expiry). These
+certifications demonstrate my commitment to continuous learning and staying current with industry best
+practices and technologies.
+
+LANGUAGES
+I am multilingual with native proficiency in English (C2 level, IELTS Band 9), fluent proficiency in Swahili
+(C1 level), and conversational proficiency in Arabic (B1 level). My native English proficiency enables me to
+communicate effectively in professional environments, write technical documentation, and deliver
+presentations. My fluent Swahili is valuable for business communication in East African contexts, while my
+conversational Arabic provides cultural understanding and basic communication abilities.
+
+INTERESTS & HOBBIES
+Outside of my professional work, I maintain several interests that contribute to my personal and professional
+development. I am actively involved in open source contribution (5 years active), regularly contributing to
+Elixir and Kubernetes projects and maintaining several popular Elixir libraries with over 1,000 stars on
+GitHub. I also engage in technical writing (4 years), having published over 50 articles on Medium and Dev.to
+covering cloud architecture, DevOps best practices, and software engineering methodologies, with over
+10,000 views. I mentor junior developers and computer science students (3 years), providing guidance on
+career development and technical skill advancement, having mentored over 15 developers through formal
+and informal programs. I am committed to continuous learning (ongoing), pursuing education in emerging
+technologies including machine learning, blockchain, and edge computing, having completed over 20 online
+courses in the past two years. I also enjoy hiking, mountain biking, and outdoor photography, having
+completed several long-distance hiking trails including the Lake District Circuit. My photography has been
+featured in local exhibitions and online galleries, and I am an avid reader of science fiction, technology
+books, and biographies, reading over 30 books annually.
+
+VOLUNTEERING & COMMUNITY SERVICE
+I am actively involved in community service and volunteering, contributing my time and expertise to various
+initiatives. Since September 2023, I have been a STEM Education Advocate with local schools in Lincoln,
+UK, spending approximately 8 hours per month conducting coding workshops and career guidance sessions
+for students interested in technology careers. Under the supervision of Sarah Johnson (sarah@lincoln-
+schools.ac.uk), I have conducted coding workshops for over 50 students, provided career guidance sessions
+in software engineering, promoted diversity and inclusion in STEM fields with a focus on underrepresented
+groups, and organized an annual coding competition that attracted over 150 participants in 2024. Since
+January 2022, I have been a volunteer developer with Code for Good, spending approximately 4 hours per
+month participating in hackathons and coding initiatives that develop technology solutions for non-profit
+organisations and social impact projects. I have developed solutions for over 5 social impact projects,
+including homelessness support apps, collaborated with diverse teams on rapid prototyping during 48-hour
+hackathons, contributed technical expertise to community initiatives serving over 1,000 beneficiaries, and
+mentored junior developers in hackathon environments. Since March 2021, I have been an organiser and
+speaker at Developer Community Meetups, spending approximately 6 hours per month building local tech
+community connections. I organize monthly technical meetups with over 50 attendees, speak on cloud
+architecture and DevOps practices at events, have built a local tech community with over 500 members, and
+facilitate networking and knowledge sharing among developers.
+
+PUBLICATIONS
+I have contributed to the academic and technical literature through research publications and technical
+articles. My research publication "Scalable Microservices Architecture for Financial Technology Platforms"
+was published in the International Journal of Software Engineering (Volume 15, Issue 2, Pages 45-62, 15
+March 2021, DOI: 10.1000/xyz123). This paper explores scalable microservices architecture patterns
+specifically designed for financial technology platforms, addressing challenges of security, compliance, and
+performance in regulated environments. It has been cited by 12 other researchers and provides valuable
+insights into distributed systems design for fintech applications. I also wrote a technical article titled
+"Implementing GitOps with Kubernetes and Flux" which was featured on Medium's Better Programming
+publication on 20 October 2023. This comprehensive guide to implementing GitOps workflows using
+Kubernetes and Flux includes practical examples, common pitfalls, and best practices for production
+environments, and has received over 5,000 views, providing valuable guidance to teams adopting GitOps
+methodologies.
+
+AWARDS & RECOGNITION
+Throughout my career, I have received several awards recognizing my technical excellence and innovation.
+On 15 January 2024, I received the Outstanding Technical Innovation Award from Data Annotation in
+recognition of my exceptional technical innovation in system architecture improvements and deployment
+automation, which contributed to a 40% reduction in deployment time and significant improvement in system
+reliability. I was specifically recognized for leading the implementation of a cloud-native microservices
+architecture that improved system performance by 300% and reduced operational costs by 25%. On 10
+November 2022, I received the Excellence in Cloud Architecture award from Power Financial Wellness for
+my outstanding cloud platform design and implementation of distributed fintech systems serving thousands
+of users across East Africa with 99.9% uptime. I was specifically recognized for designing and implementing
+a scalable cloud architecture that supported 15,000+ users and processed over $2M in transactions securely.
+On 5 May 2019, I received the Best Mobile Application award at the University of Nairobi Hackathon for
+developing "Campus Connect," a mobile app connecting students with academic resources, which won first
+place among over 50 teams, demonstrating my strong technical skills and creative problem-solving abilities.
+
+PROFESSIONAL MEMBERSHIPS
+I maintain active membership in several professional organizations to stay current with industry trends and
+best practices. I am a member of the British Computer Society (BCS) since 2022 (Membership ID: BCS-
+2022-HM001), where I attend monthly meetings and participate in professional development workshops. I
+am also a member of the Association for Computing Machinery (ACM) since 2021 (Membership ID: ACM-
+2021-HM002), which provides me access to their extensive digital library and allows me to attend virtual
+conferences. Additionally, I am a member of the Cloud Native Computing Foundation (CNCF) since 2023
+(Membership ID: CNCF-2023-HM003), through which I contribute to open source projects and attend
+KubeCon conferences, staying connected with the cloud native community.
+
+REFERENCES
+I have established strong professional relationships throughout my career and can provide references from
+various roles and contexts.
+
+Dr. Sarah Mitchell, Professor of Software Engineering at California State University, served as my PhD
+supervisor and has known me for 6 years. She can be reached at s.mitchell@calstate.edu or +1-555-123-4567
+and can speak to my research abilities, academic performance, and technical expertise.
+
+James Kariuki, Head of Engineering at Power Financial Wellness, was my former manager and has known
+me for 3 years. He can be reached at j.kariuki@powerwellness.co.ke or +254-722-123-456 and can speak to
+my cloud architecture skills, team leadership, and project delivery capabilities.
+
+Dr. Michael Chen, VP Engineering at Data Annotation, was my former manager and has known me for 2
+years. He can be reached at m.chen@dataannotation.com or +1-555-987-6543 and can speak to my
+microservices architecture expertise, DevOps practices, and mentoring abilities.
+
+Sarah Thompson, Engineering Manager at Standard Chartered Bank, was my former manager and has known
+me for 1 year. She can be reached at s.thompson@sc.com or +44-20-1234-5678 and can speak to my
+performance in regulated environments and security practices.
+
+All references are available upon request and can be contacted for verification of employment, skills, and
+character references. Additional professional and academic references are available as needed.
+

@@ -1,0 +1,115 @@
+# GitLab CI/CD Pipeline Configuration
+image: docker:latest
+services:
+  - docker:dind
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: "/certs"
+  BACKEND_DIR: "portfolio/backend"
+  FRONTEND_DIR: "portfolio/frontend"
+
+stages:
+  - test
+  - lint
+  - build
+  - deploy
+
+# Before script for all jobs
+before_script:
+  - docker info
+
+# Backend testing stage
+backend_test:
+  stage: test
+  image: python:3.12
+  services:
+    - postgres:15
+  variables:
+    POSTGRES_DB: test_db
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: postgres
+  script:
+    - cd $BACKEND_DIR
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install pytest pytest-cov
+    - python -c "from app import create_app; app = create_app(); print('Backend imports successfully')"
+    - python -c "from app.models import db, Portfolio; print('Models import successfully')"
+  only:
+    - branches
+
+# Frontend testing stage
+frontend_test:
+  stage: test
+  image: node:18
+  script:
+    - cd $FRONTEND_DIR
+    - npm ci
+    - npm test -- --passWithNoTests
+    - npm run build
+  only:
+    - branches
+
+# Backend linting stage
+backend_lint:
+  stage: lint
+  image: python:3.12
+  script:
+    - cd $BACKEND_DIR
+    - pip install flake8
+    - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+  only:
+    - branches
+
+# Frontend linting stage
+frontend_lint:
+  stage: lint
+  image: node:18
+  script:
+    - cd $FRONTEND_DIR
+    - npm ci
+    - npx eslint src/ --ext .js,.jsx --max-warnings 0
+  only:
+    - branches
+
+# Build Docker images
+docker_build:
+  stage: build
+  script:
+    - cd $BACKEND_DIR
+    - docker build -t portfolio-backend:$CI_COMMIT_SHA .
+    - docker build -t portfolio-backend:latest .
+    - cd ../$FRONTEND_DIR
+    - docker build -t portfolio-frontend:$CI_COMMIT_SHA .
+    - docker build -t portfolio-frontend:latest .
+  only:
+    - main
+
+# Deploy to staging
+deploy_staging:
+  stage: deploy
+  script:
+    - echo "Deploying to staging environment..."
+    # Add staging deployment commands here
+    # This could be deploying to a staging server, cloud platform, etc.
+    - echo "Staging deployment completed"
+  environment:
+    name: staging
+  only:
+    - main
+
+# Deploy to production
+deploy_production:
+  stage: deploy
+  script:
+    - echo "Deploying to production environment..."
+    # Add production deployment commands here
+    # This could be deploying to a production server, cloud platform, etc.
+    - echo "Production deployment completed"
+  environment:
+    name: production
+  when: manual
+  only:
+    - main

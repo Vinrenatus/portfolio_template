@@ -1,0 +1,171 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: test_db
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+
+    - name: Install dependencies
+      run: |
+        cd portfolio/backend
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov
+
+    - name: Run backend tests
+      run: |
+        cd portfolio/backend
+        # Add basic tests here if they exist, or run basic import tests
+        python -c "from app import create_app; app = create_app(); print('Backend imports successfully')"
+        python -c "from app.models import db, Portfolio; print('Models import successfully')"
+
+  test-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: "18"
+        cache: "npm"
+        cache-dependency-path: "portfolio/frontend/package-lock.json"
+
+    - name: Install frontend dependencies
+      run: |
+        cd portfolio/frontend
+        npm ci
+
+    - name: Run frontend tests
+      run: |
+        cd portfolio/frontend
+        npm test -- --passWithNoTests
+
+    - name: Build frontend
+      run: |
+        cd portfolio/frontend
+        npm run build
+
+  lint-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+
+    - name: Install dependencies
+      run: |
+        cd portfolio/backend
+        python -m pip install --upgrade pip
+        pip install flake8
+
+    - name: Lint backend code
+      run: |
+        cd portfolio/backend
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+  lint-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: "18"
+        cache: "npm"
+        cache-dependency-path: "portfolio/frontend/package-lock.json"
+
+    - name: Install frontend dependencies
+      run: |
+        cd portfolio/frontend
+        npm ci
+        npm install eslint
+
+    - name: Lint frontend code
+      run: |
+        cd portfolio/frontend
+        npx eslint src/ --ext .js,.jsx --max-warnings 0
+
+  docker-build:
+    runs-on: ubuntu-latest
+    needs: [test-backend, test-frontend, lint-backend, lint-frontend]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build backend Docker image
+      run: |
+        cd portfolio/backend
+        docker build -t portfolio-backend .
+
+    - name: Build frontend Docker image
+      run: |
+        cd portfolio/frontend
+        docker build -t portfolio-frontend .
+
+  deploy-staging:
+    runs-on: ubuntu-latest
+    needs: [docker-build]
+    if: github.ref == "refs/heads/main" || github.ref == "refs/heads/master"
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Deploy to staging
+      run: |
+        echo "Deploying to staging environment..."
+        # Add staging deployment steps here
+        # This could be deploying to a staging server, cloud platform, etc.
+        echo "Staging deployment completed"
+
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: [deploy-staging]
+    if: github.ref == "refs/heads/main" && github.event_name == "push"
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Deploy to production
+      run: |
+        echo "Deploying to production environment..."
+        # Add production deployment steps here
+        # This could be deploying to a production server, cloud platform, etc.
+        echo "Production deployment completed"
